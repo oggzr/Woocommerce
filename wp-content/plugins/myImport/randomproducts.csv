@@ -1,0 +1,11 @@
+sku,image_url,title,description,weight,price,discount_price,discount_start,discount_end
+41,https://img-aws.ehowcdn.com/877x500p/photos.demandstudios.com/getty/article/241/162/477744883.jpg,Goldfish,Goldfish,4,2000,1000,2017-12-08,2018-02-20
+42,https://i.pinimg.com/736x/3b/da/01/3bda01b269503250a7e4da98315a2ba4--finding-nemo-turtle-crush-from-finding-nemo.jpg,Turtle,Turtle,3,2200,,,
+43,https://www.flyingduchess.com/wp-content/uploads/2013/09/535804-1680x1050-e1380228899264.jpg,Grey Bunny,Grey Bunny,3,2200,,,
+44,https://i.pinimg.com/originals/55/1f/26/551f26bf2cea61205c47f4871d74f813.jpg,Parrot,Parrot,4,2000,1000,2017-12-08,2018-02-20
+45,https://inra-dam-front-resources-cdn.brainsonic.com/ressources/afile/387272-80ca7-picture_client_format_2-souris-microbiote-la-revolution-intestinal.jpg,Mouse,Mouse,3,2200,,,
+46,https://www.pets4homes.co.uk/images/articles/2260/large/how-to-make-sure-a-sphinx-cats-skin-stays-healthy-545a2db010835.jpg,Sphinx,Sphinx,3,2200,,,
+47,https://arlingtonva.s3.dualstack.us-east-1.amazonaws.com/wp-content/uploads/sites/25/2013/12/rat.jpg,Rat,Rat,4,2000,1000,2017-12-08,2018-02-20
+48,https://cbsnews1.cbsistatic.com/hub/i/r/2011/11/18/80260664-a644-11e2-a3f0-029118418759/thumbnail/620x350/757a6bf57d2033c0c95eb7ce8913762c/111118-rattlesnake-image6823120x.jpg,Rattle Snake,Rattle Snake,3,2200,,,
+49,http://homeforaday.org/gallery/reptiles_and_amphibians/snakes/water_snake_wp.jpg,Water Snake,Water Snake,3,2200,,,
+50,http://www.willasark.com/wp-content/uploads/2012/12/bunny.jpg,Fluffy Bunny,Fluffy Bunny,3,2200,,,

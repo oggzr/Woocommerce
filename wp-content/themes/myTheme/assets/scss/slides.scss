@@ -1,0 +1,69 @@
+.slides {
+  width: 100%;
+  height: 820px;
+  position: relative;
+  top: 0px;
+}
+
+.mySlides {
+
+  position: absolute;
+
+  @media (max-width: 768px){
+    background-attachment: initial;
+  }
+
+  width: 100%;
+  height: 70%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   .content {
+     text-align: center;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     a {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+     }
+     .code {
+       color: #e0594a;
+     }
+
+     h2 {
+       text-transform: uppercase;
+       font-weight: 200;
+       color: #fff;
+       font-family: 'News Cycle', sans-serif;
+       font-size: 60px;
+       letter-spacing: 4px;
+       text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+       @media(max-width: 450px) {
+         font-size: 53px;
+       }
+     }
+     h4{
+       position: absolute;
+       bottom: -44px;
+       margin-top: 40px;
+       color: #fff;
+       font-family: 'News Cycle', sans-serif;
+       font-size: 60px;
+       @media(max-width: 450px) {
+         font-size: 30px;
+       }
+       text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+     }
+   }
+}

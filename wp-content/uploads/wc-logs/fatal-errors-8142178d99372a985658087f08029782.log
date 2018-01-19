@@ -1,0 +1,456 @@
+2017-12-14T21:09:50+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-12-14T21:13:14+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-12-15T11:18:17+00:00 CRITICAL Uncaught Error: Call to undefined function have_rows() in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php:3
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/page-start.php(12): get_template_part('partials/flexib...')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template-loader.php(74): include('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-blog-header.php(19): require_once('/Users/oskareri...')
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/index.php(17): require('/Users/oskareri...')
+#7 /Users/oskareriksson/.composer/v
+
+2017-12-15T15:02:30+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:24
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155)
+
+2017-12-15T15:03:08+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:24
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155)
+
+2017-12-15T15:07:52+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:24
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155)
+
+2017-12-15T15:34:30+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:41
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155)
+
+2017-12-15T15:35:25+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:41
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155)
+
+2017-12-15T16:03:01+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:70
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155
+
+2017-12-15T16:04:26+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:70
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155
+
+2017-12-15T16:07:05+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:70
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155
+
+2017-12-15T16:07:27+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on array in /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/section-content.php:70
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require()
+#1 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#2 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-content/themes/myTheme/partials/flexible.php(15): get_template_part('partials/sectio...', 'content')
+#4 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(690): require('/Users/oskareri...')
+#5 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/template.php(647): load_template('/Users/oskareri...', false)
+#6 /Users/oskareriksson/Documents/www/woocommerce_ex/wp-includes/general-template.php(155
+
+2017-12-19T11:06:54+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-12-19T11:07:34+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-12-19T11:13:18+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-12-19T11:42:24+00:00 CRITICAL Maximum execution time of 30 seconds exceeded
+
+2017-12-19T11:43:23+00:00 CRITICAL Cannot redeclare myField() (previously declared in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/storeShipping/storeShipping.php:14)
+
+2017-12-19T11:43:40+00:00 CRITICAL Cannot redeclare myField() (previously declared in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/storeShipping/storeShipping.php:14)
+
+2017-12-19T11:43:58+00:00 CRITICAL Cannot redeclare myField() (previously declared in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/storeShipping/storeShipping.php:14)
+
+2017-12-19T11:44:05+00:00 CRITICAL Cannot redeclare myField() (previously declared in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/storeShipping/storeShipping.php:14)
+
+2017-12-21T10:17:49+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:17:57+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:18:00+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:18:10+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:18:15+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:18:16+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:18:27+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:19:05+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:20:27+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:22:08+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:22:10+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:22:10+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:22:11+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T10:22:27+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on array in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:93
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->
+
+2017-12-21T11:42:43+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:94
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T11:44:26+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:94
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T11:44:38+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:94
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T12:34:41+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T12:35:11+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T12:35:57+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T12:36:02+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T12:41:43+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T12:41:45+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2017-12-21T13:47:30+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:78
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(250)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(250, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:11:44+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:90
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(251)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(251, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:13:01+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:90
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(252)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(252, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:13:16+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:90
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(252)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(252, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:13:55+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:90
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(252)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(252, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:27:15+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(254)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(254, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:30:24+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(254)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(254, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:37:50+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(255)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(255, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-21T14:38:40+00:00 CRITICAL Uncaught Error: Call to a member function update_status() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/invoicePayment/invoicePayment.php:92
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(804): WC_Gateway_Your_Gateway->process_payment(256)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(986): WC_Checkout->process_order_payment(256, 'invoice123')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(409): WC_Checkout->process_checkout()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(286): WC_AJAX::checkout('')
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 
+
+2017-12-22T11:21:48+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Gateway_Your_Klarna::create_session() in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/klarnaPayment/klarnaPayment.php:45
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(105): WC_Gateway_Your_Klarna->__construct()
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/wc-template-functions.php(72): WooCommerce->payment_gateways()
+#5 /Users/oskareriksson/Doc
+
+2017-12-23T13:16:33+00:00 CRITICAL Uncaught Error: Class 'myBraintree' not found in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/klarnaPayment/klarnaPayment.php:17
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(105): WC_Gateway_Your_Klarna->__construct()
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(67): WC_Payment_Gateways->init()
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(40): WC_Payment_Gateways->__construct()
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-woocommerce.php(641): WC_Payment_Gateways::instance()
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/wc-template-functions.php(72): WooCommerce->payment_gateways()
+#5 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-include
+
+2018-01-15T10:19:19+00:00 CRITICAL Uncaught Error: Call to undefined function myRealated() in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/themes/myTheme/home.php:18
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/template-loader.php(74): include()
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-blog-header.php(19): require_once('/Users/oskareri...')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/index.php(17): require('/Users/oskareri...')
+#3 /Users/oskareriksson/.composer/vendor/laravel/valet/server.php(133): require('/Users/oskareri...')
+#4 {main}
+  thrown
+
+2018-01-15T10:19:34+00:00 CRITICAL Uncaught Error: Call to undefined function myRealated() in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/themes/myTheme/home.php:18
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/template-loader.php(74): include()
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-blog-header.php(19): require_once('/Users/oskareri...')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/index.php(17): require('/Users/oskareri...')
+#3 /Users/oskareriksson/.composer/vendor/laravel/valet/server.php(133): require('/Users/oskareri...')
+#4 {main}
+  thrown
+
+2018-01-15T10:20:13+00:00 CRITICAL Uncaught Error: Call to undefined function myRealated() in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/themes/myTheme/home.php:18
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-includes/template-loader.php(74): include()
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-blog-header.php(19): require_once('/Users/oskareri...')
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/index.php(17): require('/Users/oskareri...')
+#3 /Users/oskareriksson/.composer/vendor/laravel/valet/server.php(133): require('/Users/oskareri...')
+#4 {main}
+  thrown
+
+2018-01-16T14:58:09+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:91
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
+2018-01-16T15:01:22+00:00 CRITICAL Uncaught Error: Call to a member function get_shipping_class() on null in /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/courierShipping.php/courierShipping.php:91
+Stack trace:
+#0 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php(207): WC_My_Courier_Method->calculate_shipping(Array)
+#1 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(333): WC_Shipping_Method->get_rates_for_package(Array)
+#2 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#3 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1270): WC_Shipping->calculate_shipping(Array)
+#4 /Users/oskareriksson/Documents/www/Woocommerce_ex/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(345): WC_Cart->c
+
