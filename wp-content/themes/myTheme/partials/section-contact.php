@@ -33,17 +33,16 @@ if (isset($_POST['sub'])) {
 
     }
   }
-
+  $email = get_option('admin_email');
   $headers = array(
     'From: '.$_POST['email'],
 );
-  wp_mail( 'ogg_ish@hotmail.com', $_POST['errand'], $_POST['message'], $headers, $attachments );
+  wp_mail( $email, $_POST['errand'], $_POST['message'], $headers, $attachments );
   echo "SUCCESS";
 }
+
 ?>
-
-
-<form class="" enctype="multipart/form-data" action="" method="post">
+<form class="og-contact" enctype="multipart/form-data" action="" method="post">
   <select class="errand" name="errand" placeholder="Subject">
     <option value="contact">Contact</option>
     <option value="complaint">Complaint</option>

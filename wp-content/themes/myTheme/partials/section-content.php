@@ -56,7 +56,7 @@ if ($type === '1'){
 
 <section class="content">
   <div class="og-row">
-    <h2><?php echo $message ?></h2>
+    <h2 class="og-subject"><?php echo $message ?></h2>
   </div>
   <div class="og-row">
     <?php while ( $loop->have_posts() ) : $loop->the_post();
